@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=2,<4", "Django >= 2.0"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "netimages"
+dist-name = "netimages"
+keywords = "security,testing"
+requires-python = ">=3.5"
+description-file = "README.md"
+author = "Anthony Shaw"
+author-email = "anthonyshaw@apache.org"
+home-page = "https://github.com/tonybaloney/netimages"
+requires = ["scapy", "Pillow", "ansicolors"]
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",]
