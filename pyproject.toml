@@ -14,3 +14,6 @@ home-page = "https://github.com/tonybaloney/netimages"
 requires = ["scapy", "Pillow", "ansicolors"]
 classifiers = [
     "License :: OSI Approved :: Apache Software License",]
+
+[scripts]
+netimages = "netimages.__main__:main"
